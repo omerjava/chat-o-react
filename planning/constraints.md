@@ -1,30 +1,18 @@
 # Constraints
 
-Some boundaries around our project.
+Some boundaries around the project.
 
 ## External
 
-<!--
-  constraints coming from the outside that your team has no control over. these may include:
-  - project deadlines
-  - UI design or color schemes
-  - technologies (sometimes a client will tell you what to use)
--->
+- Project must be completed in two weeks, it is a tight schedule to build a full stack application with
+a lot of features.
+- Strapi in the backend and React in the frontend must be used. Getting familiar with all features of
+these two technologies may take time.
 
 ## Internal: Involuntary
 
-<!--
-  constraints that come from within your team, and you have no control over. they may include:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
+- I push myself too much. It causes sometimes inefficiency.
 
 ## Internal: Voluntary
 
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- There are also other subjects which I want to study and focus on. So, I want to finish this project as quick as possible.

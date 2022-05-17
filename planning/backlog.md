@@ -1,59 +1,33 @@
 # Backlog
 
-A collection of user stories for your project. Stories inside of each priority
-level are not necessarily in order. You and your team will decide when to
-develop each story by drawing out your [Story Sequencing](#story-sequencing).
+## must haves
 
-## Must-Haves
+1. User can see all channels
+2. User can add a new channel
+3. User can see other users
+4. User can send a message in all channels with his/her username
+5. User can see who send the message
+6. User can see a message with the date of message
 
-are necessary for basic usability:
+## should haves
 
-- **user story name**: As a [type of user] I want to [do something] so that [I
-  achieve some goal]
-  - Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]
-  - ...
-- **user story name**: As a [type of user] I want to [do something] so that [I
-  achieve some goal]
-  - Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]
-  - ...
-- ...
+1. User can create a user account and login to the application
+2. User can change his/her username and other profile info
+3. User can edit a message which he/she sent
+4. User can delete a message which he/she sent
+5. User can change the name of channel which he/she created
+6. User can delete the channel which he/she created
+7. User can delete his/her user account
+8. User can add a profile photo
+9. User can send a picture message
+10. User can send a private message
+11. User can see his/her private messages
+12. User can delete his/her private messages
 
-## Should-Haves
+## could haves
 
-will complete the user experience, but are not necessary:
-
-- **user story name**: As a [type of user] I want to [do something] so that [I
-  achieve some goal]
-  - Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]
-  - ...
-- **user story name**: As a [type of user] I want to [do something] so that [I
-  achieve some goal]
-  - Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]
-  - ...
-- ...
-
-## Could-Haves
-
-would be really cool ... if there's time:
-
-- **user story name**: As a [type of user] I want to [do something] so that [I
-  achieve some goal]
-  - Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]
-  - ...
-- **user story name**: As a [type of user] I want to [do something] so that [I
-  achieve some goal]
-  - Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]
-  - ...
-- ...
-
----
-
-## Story Sequencing
-
-![story sequencing graph](./story-sequencing-graph.svg)
+1. A message can have threads of reply
+2. A user can react to messages with emojis
+3. User can receive a registration confirmation email
+4. User can see if a message is seen or not
+5. User can setup the background or environment of his view
