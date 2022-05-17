@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.App {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.login-section {
+  display: block;
+  margin: 0px;
+  width: 100%;
+
+}
+
+.no-login-section {
+  display: none;
+}
+
+.chat-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.no-chat-section {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .chat-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+

@@ -1,0 +1,74 @@
+.auth {
+  background-color: black;
+  color: white;
+  width: 100%;
+  min-height: 300px;
+  padding: 10% 20%;
+}
+
+.auth form {
+  padding: 50px;
+  border: 1px solid white;
+}
+
+.auth form input {
+  padding: 5px 10px;
+  width: 50%;
+  margin-top: 7px;
+  border-radius: 5px;
+  border: rgb(101, 100, 100) 2px solid;
+}
+
+.auth form button {
+  padding: 5px 30px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: rgb(250, 200, 36) 2px solid;
+  background-color: rgb(248, 248, 237);
+  color: rgb(23, 22, 22);
+}
+
+.auth form button:hover {
+  border: rgb(250, 200, 36) 2px solid;
+  background-color: rgb(17, 17, 16);
+  color: rgb(245, 242, 242);
+}
+
+.auth .login {
+  display: block;
+}
+
+.auth .no-login {
+  display: none;
+}
+
+.auth .register {
+  display: block;
+}
+
+.auth .no-register {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .auth {
+    margin: 0px;
+    min-height: 300px;
+    padding: 10% 5%;
+  }
+
+  .auth form input {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .auth form {
+    padding: 10px;
+    border: 1px solid white;
+  }
+
+  .auth form input {
+    width: 90%;
+  }
+}

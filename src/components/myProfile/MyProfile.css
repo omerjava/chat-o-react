@@ -1,0 +1,83 @@
+.myProfile-container {
+    margin-top: 1px;
+    background-color: rgb(244, 176, 75);
+}
+
+.myProfile-container:hover {
+    background-color: rgb(245, 217, 174);
+    color: rgb(54, 51, 42);
+}
+
+.myProfile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(252, 236, 171);
+    color: brown;
+    border-bottom: 5px solid brown;
+
+}
+
+.myProfile-container .myProfile button {
+    font-size: small;
+    border-radius: 5px;
+    border: 1px black solid ;
+    background-color: rgb(237, 213, 186);
+    color: rgb(19, 18, 18);
+    padding: 5px;
+}
+
+.myProfile-container .myProfile button:hover {
+    background-color: brown;
+    color: rgb(252, 251, 251);
+    cursor: pointer;
+}
+
+.myProfile-container .settings {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.32);
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: smaller;
+}
+
+.myProfile-container .no-settings {
+    display: none;
+}
+
+.myProfile-container .settings button {
+    padding: 3px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    border: rgb(250, 200, 36) 2px solid;
+    background-color: rgb(248, 248, 237);
+    color: rgb(23, 22, 22);
+}
+
+.myProfile-container .settings button:hover {
+    border: rgb(250, 200, 36) 2px solid;
+    background-color: rgb(17, 17, 16);
+    color: rgb(245, 242, 242);
+}
+
+.myProfile-container .update {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.584);
+    padding: 30px 10px;
+    margin-top: 20px;
+}
+
+.myProfile-container .no-update {
+    display: none;
+}
+
+.myProfile-container .update input {
+    padding: 5px;
+    position: relative;
+    width: 90%;
+    margin: 7px 0px;
+    border-radius: 5px;
+    border: rgb(101, 100, 100) 2px solid;
+}
+

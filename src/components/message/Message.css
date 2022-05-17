@@ -1,0 +1,56 @@
+.message-container1 {
+    margin-top: 5px;
+    margin-right: 20px;
+    min-width: 10%;
+    background-color: rgb(221, 243, 190);
+    border-radius: 25px;
+    padding: 0px 5px;
+}
+
+.message-container2 {
+    margin-top: 5px;
+    min-width: 10%;
+    margin-left: 20px;
+    background-color: rgb(221, 243, 190);
+    border-radius: 25px;
+    padding: 0px 5px;
+}
+
+.message-container1:hover {
+    background-color: rgb(242, 249, 237);
+    color: rgb(54, 51, 42);
+}
+
+.message-container2:hover {
+    background-color: rgb(242, 249, 237);
+    color: rgb(54, 51, 42);
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+}
+
+.message .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.message .top .username { 
+    color: palevioletred;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.message .message-footer { 
+    color: rgb(117, 23, 51);
+    font-weight: 600;
+    font-size: smaller;
+    margin-top: 5px;
+}
+

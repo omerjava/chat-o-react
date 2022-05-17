@@ -1,0 +1,29 @@
+.private-messages {
+    padding: 10px 0px;
+    border-bottom: 5px solid brown;
+}
+
+.pm-header {
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: medium;
+    color: brown;
+}
+
+.pm-header:hover {
+    cursor: pointer;
+}
+
+.pm-body{
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(227, 225, 215);
+    border-top: solid 1px rgb(121, 120, 120);
+    border-bottom: solid 1px rgb(121, 120, 120);
+}
+
+.no-pm-body{
+    display: none;
+}
