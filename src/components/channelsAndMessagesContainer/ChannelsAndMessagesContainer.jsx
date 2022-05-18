@@ -222,7 +222,7 @@ function ChannelsAndMessagesContainer(props) {
           </div>
         </div>
         <div className="channel-list">
-          {channelList.map((v, i) => (
+          {channelList!==undefined ? channelList.map((v, i) => (
             <Channel
               key={i}
               channelId={v.id}
@@ -240,7 +240,7 @@ function ChannelsAndMessagesContainer(props) {
               deleteChannel={() => deleteChannel(v.id)}
               userLogged={usernameLoggedIn}
             />
-          ))}
+          )) : ""}
         </div>
       </section>
       <section className="messages-section">
@@ -281,7 +281,7 @@ function ChannelsAndMessagesContainer(props) {
             <div className="messages-header">Channel {channelOfMessages}</div>
             <div>
               {" "}
-              {messageList.map((v, i) => (
+              {messageList!==undefined ? messageList.map((v, i) => (
                 <Message
                   key={i}
                   nameofclass={
@@ -306,7 +306,7 @@ function ChannelsAndMessagesContainer(props) {
                   deleteMessageEvent={() => deleteMessageHandle(v.id)}
                   errorDelete={errorDeleteMessage}
                 />
-              ))}
+              )) : ""}
             </div>
           </div>
           {errorGetMessage}

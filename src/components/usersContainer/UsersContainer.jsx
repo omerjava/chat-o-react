@@ -160,7 +160,7 @@ function UsersContainer() {
         }
       </div>
       <div className="user-list">
-        {userList.length>0 ? userList.map((v, i) => (
+        {userList!==undefined ? userList.map((v, i) => (
           <User
             key={i}
             username={v.username}
