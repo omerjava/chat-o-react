@@ -160,7 +160,7 @@ function UsersContainer() {
         }
       </div>
       <div className="user-list">
-        {userList.map((v, i) => (
+        {userList.length>0 ? userList.map((v, i) => (
           <User
             key={i}
             username={v.username}
@@ -184,7 +184,7 @@ function UsersContainer() {
                 : ""
             }
           />
-        ))}
+        )) : ''}
         {errorUserContainer}
       </div>
     </div>

@@ -43,7 +43,6 @@ function Login() {
           setEmailRegister("");
           setErrorMessage("");
         } else {
-          console.log(res);
           setErrorMessage(
             "Sorry, something went wrong! Please try again later!"
           );
@@ -85,7 +84,6 @@ function Login() {
         localStorage.setItem("jwtToken", data.jwt);
         localStorage.setItem("userId", data.user.id);
         const token = localStorage.getItem("jwtToken");
-        console.log(data.user);
         if (token) {
           setLoggedIn(true);
           setUsernameLoggedIn(data.user.username);
