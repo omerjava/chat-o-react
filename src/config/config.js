@@ -1,1 +1,1 @@
-export const ORIGIN = 'http://localhost:1337';
+export const ORIGIN = 'https://chat-o-app.herokuapp.com';
