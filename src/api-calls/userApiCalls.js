@@ -10,16 +10,14 @@ export const userApiCalls = {
             },
         }
             );
-
             return response;
-
     },
 
-    getUsers: async () => {
+    getUsers: async (token) => {
         const response = await fetch(`${ORIGIN}/api/users`, {
             headers: {
               'Content-Type': 'application/json',
- 
+              Authorization: `Bearer ${token}`,
             },
           });
           return response;

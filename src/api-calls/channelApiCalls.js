@@ -21,10 +21,11 @@ export const channelApiCalls = {
     return response;
   },
 
-  getChannels: async () => {
+  getChannels: async (token) => {
     const response = await fetch(`${ORIGIN}/api/channels?populate=%2A`, {
       headers: {
         "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
       },
     });
 

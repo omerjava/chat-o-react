@@ -32,7 +32,7 @@ function ChannelsAndMessagesContainer(props) {
       return;
     }
 
-    const response = channelApiCalls.getChannels();
+    const response = channelApiCalls.getChannels(token);
 
     response
       .then((res) => {
@@ -103,7 +103,7 @@ function ChannelsAndMessagesContainer(props) {
           return res.json();
         } else
           setErrorGetMessages(
-            "Sorry, there is a problem in messages! Please check your conection and try again!"
+            "Sorry, there is a problem in messages! Please check your connection and try again later!"
           );
       })
       .then((data) => {

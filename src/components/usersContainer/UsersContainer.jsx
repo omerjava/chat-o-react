@@ -31,7 +31,7 @@ function UsersContainer() {
       return;
     }
 
-    const response = userApiCalls.getUsers();
+    const response = userApiCalls.getUsers(token);
 
     response
       .then((res) => {
