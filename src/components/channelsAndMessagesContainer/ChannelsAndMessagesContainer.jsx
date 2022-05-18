@@ -32,7 +32,7 @@ function ChannelsAndMessagesContainer(props) {
       return;
     }
 
-    const response = channelApiCalls.getChannels(token);
+    const response = channelApiCalls.getChannels();
 
     response
       .then((res) => {
